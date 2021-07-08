@@ -7,6 +7,7 @@ Library    ../ExternalKeywords/UserKeywords.py
 
 *** Keywords ***
 Start Browser and Maximize
+    [Documentation]    Test file
     open browser    http://www.thetestingworld.com/testings    chrome
     MAXIMIZE BROWSER WINDOW
 
